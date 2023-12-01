@@ -1,0 +1,12 @@
+
+/* Create rollover button effect for all hyperlinks */
+a:link, a:visited {
+	border-radius: 12px;
+    border: 2px solid white;
+    padding: 100x 15px;
+    background-color: #595959;
+	
+    max-width: 1000px;
+    height: 100vh;
+    margin: auto;
+	}

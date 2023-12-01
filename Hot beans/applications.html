@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- Link to css stylesheet -->
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<title>Hot Beans Web - Job applications</title>
+<left>
+<img src="images/Hot Beans-logos.jpeg" alt="Hot Beans Logo" style="width:250px;height:250px" border="2px solid black;">
+</left>
+<body>
+
+<center> 
+
+<!-- Navigation menu -->
+<a href = "index.html">Home Page</a>
+<a href = "profiles.html">Employess</a>
+<a href = "vacancies.html">Job Roles</a>
+<a href = "courses.html">Course</a>
+<a href = "applications.html">applications</a>
+
+<!-- Center navigation menu end -->
+</center> 
+
+
+    
+      <!--Nav Bar-->
+    
+
+<div class="titlename">  
+     <br>
+     
+      <h1>Apply</h1>
+</div>
+<br>
+
+<div style="background: #FDF5DF;
+           font-size: 15px;
+		   border: 5px solid black;
+		   margin: 5px;">
+
+
+<!-- Job Option-->
+<div class="d-flex justify-content-center">
+<div class="accordion width">
+ <label for="exampleFormControlInput1" class="form-label">Job Title</label>
+<select class="form-select" aria-label="Default select example">
+  <option selected="">Select Job</option>
+  <option value="1">Front-End</option>
+  <option value="2">Back-End</option>
+  <option value="3">Full-Stack</option>
+</select>
+
+</div>
+      </div>
+      <br>
+      
+      <div class="d-flex justify-content-center">
+<div class="accordion width">
+      <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Full Name</label>
+  <input type="Name" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+</div>
+          </div>
+      </div>
+      
+      
+      
+      <br>
+      <!-- Email Address-->
+      <div class="d-flex justify-content-center">
+<div class="accordion width">
+      <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+          </div>
+      </div>
+    <br>
+    
+    
+    
+          <div class="d-flex justify-content-center">
+<div class="accordion width">
+      <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+  <input type="" class="form-control" id="exampleFormControlInput1" placeholder="Phone Number">
+</div>
+          </div>
+      </div>
+      
+   <br>   
+      
+      
+    <!-- File Selector-->
+    <div class="d-flex justify-content-center">
+<div class="accordion width">
+    <div class="mb-3">
+  <label for="formFile" class="form-label">CV</label>
+  <input class="form-control" type="file" id="formFile">
+</div>
+        </div>
+      </div>
+      
+
+
+
+	
+						
+						
+						
+						
+						
+ 
+                    <br>
+                    
+<div class="button-width">
+<button id="myBtn" class="btn btn-secondary">Submit</button>
+</div>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">×</span>
+    <p>This website was created for coursework purposes and there are no jobs. Sorry for the inconvenience.</p>
+  </div>
+
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+      
+<div id="wrap">
+	<div id="main">
+
+	</div>
+</div>
+</div>
+<footer>
+  <p>Hot Beans ©2022<p>
+  <p>All Rights Reversed</p>
+</footer>
+
+
+</body>
+</html>
+
